@@ -35,7 +35,9 @@ public class InMemoryParticipantRepository {
 			new Participant("P1011", "Sasha Nair", 41, "ACTIVE", "401K", "TERMINATED", 100,
 					new BigDecimal("1800.00"), new BigDecimal("0.00"), LocalDate.now().minusDays(90), 0),
 			new Participant("P1012", "Devon Kaur", 49, "ACTIVE", "401K", "TERMINATED", 100,
-					new BigDecimal("26000.00"), new BigDecimal("0.00"), LocalDate.now().minusDays(90), 2)
+					new BigDecimal("26000.00"), new BigDecimal("0.00"), LocalDate.now().minusDays(90), 2),
+			new Participant("P1013", "Noor Hale", 63, "ACTIVE", "403B", "RETIRED", 100,
+        			new BigDecimal("30000.00"), new BigDecimal("1200.00"), LocalDate.now().minusDays(90), 0)
 	);
 
 	public Optional<Participant> findById(String id) {
